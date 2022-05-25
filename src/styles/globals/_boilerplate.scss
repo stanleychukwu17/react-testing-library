@@ -13,7 +13,7 @@ body {
     margin: 0;
     display: block;
     position: relative;
-    // overflow: hidden;
+    font-family: u1.$font-main;
     color: var(--text-color);
     background: #ecf0f1 !important;
     background: u1.$background_main_color !important;
@@ -26,19 +26,3 @@ a{text-decoration: none;}
 a:hover{text-decoration: underline;}
 img{border:0}
 a { color: u1.$link_color; }
-
-// h1 {
-//     font-size: u1.rem(22);
-
-//     @include u1.breakpoints(medium) {
-//         font-size: u1.rem(28);
-//     }
-
-//     @include u1.breakpoints(large) {
-//         font-size: u1.rem(36);
-//     }
-// }
-// h2 {
-//     font-size: calc(u1.rem(10) + 2vw); // this is very web responsive
-//     font-size: min(calc(u1.rem(10) + 2vw), u1.rem(35)); // this is very web responsive
-// }
